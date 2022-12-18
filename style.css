@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    height: 100%;
+    background:url('https://images.pexels.com/photos/1420440/pexels-photo-1420440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'),rgba(0, 0, 0, 0.2);
+    background-size: cover;
+}
+
+.container{
+    margin-top: 120px;
+    height: 50%;
+    padding: 20px;
+    display:inline-flex;
+    border:1px solid black;
+    text-align: center;
+    color:black;
+
+}
+
+
+h2{
+    margin: 2px;
+    font-family:'Rubik Puddles', cursive;
+    font-size:3rem;
+    color:aqua;
+  
+}
+
+
+.topic{
+    margin-top:10px;
+    font-size:1rem;
+    text-decoration: solid;
+    text-transform: uppercase;
+}
+
+.title{
+    display: inline-grid;
+}
+
+#takeYear{
+   color:white;
+    height:30px;
+    width:120px;
+    background-color:transparent;
+    padding:  20px;
+  margin: 8px ;
+  box-sizing: border-box;
+   border: none;
+  border-bottom: 2px solid red;
+  font-size: 20px;
+    font-weight: bold;
+}
+
+.getYear{
+    height: 30px;
+   
+}
+
+#value{
+    font-size:40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    text-shadow: 2px 0 3px yellow,3px 2px 0 green;
+}
